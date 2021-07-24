@@ -88,8 +88,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'revdol2',  # 数据库名字
-        'USER': 'root',  # 账号
-        'PASSWORD': 'KLXSX8372991',  # 密码
+        'USER': 'x',  # 账号
+        'PASSWORD': 'x',  # 密码
         'HOST': 'cdb-9f2k7gg1.gz.tencentcdb.com',  # IP
         'PORT': '10038',  # 端口
     }
