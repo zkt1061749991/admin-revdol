@@ -46,7 +46,8 @@ INSTALLED_APPS = [
     'PlatForm',
     'MessageCenter',
     'Activity',
-    'DjangoUeditor'
+    'DjangoUeditor',
+    'Resources'
 ]
 
 MIDDLEWARE = [
@@ -144,7 +145,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # 指定根目录
 # 邮箱验证功能配置
 EMAIL_HOST = "smtp.qq.com"  # SMTP服务器主机
 EMAIL_PORT = 25  # 端口
-EMAIL_HOST_USER = "544493924@qq.com"  # 邮箱地址
-EMAIL_HOST_PASSWORD = "iicnfbhvigxmbecg"  # 密码
+EMAIL_HOST_USER = "revdol@qq.com"  # 邮箱地址
+EMAIL_HOST_PASSWORD = "ISABELLA520"  # 密码
 EMAIL_USE_TLS = True
-EMAIL_FROM = "544493924@qq.com"  # 邮箱地址
+EMAIL_FROM = "revdol@qq.com"  # 邮箱地址

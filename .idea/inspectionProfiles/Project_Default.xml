@@ -638,6 +638,13 @@
     <inspection_tool class="PrimitiveArrayArgumentToVariableArgMethod" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PsiElementConcatenation" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PublisherImplementation" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
     <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="QuickFixGetFamilyNameViolation" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RSReferenceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
